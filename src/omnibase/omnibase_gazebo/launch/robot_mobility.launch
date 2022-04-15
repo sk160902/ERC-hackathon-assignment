@@ -1,0 +1,5 @@
+<launch>
+<node pkg ="omnibase_gazebo" type="motion_planning.py" name="motion_planning_node" output="screen"></node>
+<node pkg ="omnibase_gazebo" type="obstacle.py" name="obstacle_node" output="screen"></node>
+<node pkg ="omnibase_gazebo" type="controller_pid.py" name="controller_pid_node" output="screen"></node>
+</launch>
